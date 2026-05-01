@@ -1,13 +1,10 @@
-const wrapper = document.querySelector(".Wrapper");
-const socialIcons = document.querySelector(".socialIcons");
-wrapper.addEventListener("click", (e) => {
-  e.stopPropagation();
-  socialIcons.classList.toggle("active");
-  wrapper.classList.toggle("fill");
+const wrapper = document.querySelector(".wrapper");
+const userData = document.querySelector(".user__data");
+wrapper.addEventListener("click", () => {
+  userData.classList.toggle("is-active");
 });
 document.addEventListener("click", (e) => {
-  if (!socialIcons.contains(e.target)) {
-    socialIcons.classList.remove("active");
-    wrapper.classList.remove("fill");
+  if (!userData.contains(e.target)) {
+    userData.classList.remove("is-active");
   }
 });
