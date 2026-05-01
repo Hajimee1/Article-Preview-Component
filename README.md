@@ -8,7 +8,7 @@ The goal was to create a clean, interactive UI component with a focus on layout,
 
 ## 🔗 Live Demo
 
-👉 [Live Site URL](https://your-live-site-url.com)
+👉 [Live Site URL](https://hajimee1.github.io/Article-Preview-Component/)
 
 ---
 
